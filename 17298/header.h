@@ -6,11 +6,12 @@
 
 #define SIZE 100
 
-int stack[SIZE];
+int stack[SIZE] ={0, };
+int top = -1;
 
-void IsFull();
-void IsEmpty();
-void push();
-void pop();
+int IsFull();
+int IsEmpty();
+void push(int n);
+int pop();
 
 #endif
