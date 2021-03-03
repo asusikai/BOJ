@@ -1,9 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-#define SIZE 100
-
-int stack[SIZE];
+#include "header.h"
+#include "header.h"
 
 int main()
 {
