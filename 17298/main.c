@@ -1,12 +1,12 @@
 #include "header.h"
-#include "header.h"
+
 
 int main()
 {
     int i,j, input;
     int num; // 입력받을 횟수
     scanf("%d", &num);
-    
+
     for(i=0; i<num; i++)
     {
         scanf("%d", &input);
