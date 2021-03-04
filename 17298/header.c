@@ -1,13 +1,15 @@
 #include "header.h"
 
+int _top = -1;
+
 int IsFull()
 {
-    if(top == SIZE)
+    if(_top == SIZE)
     {
         return 1;
     }
 
-    else if(top < SIZE)
+    else if(_top < SIZE)
     {
         return 0;
     }
@@ -15,22 +17,22 @@ int IsFull()
 
 int IsEmpty()
 {
-    if(top == -1)
+    if(_top == -1)
     {
         return 1;
     }
 
-    else if(top >-1)
+    else if(_top >-1)
     {
         return 0;
     }
 }
 
-void push(int n)
+void _push(int m)
 {
     if(!IsFull())
     {
-        stack[++top] = n;
+        stack[++_top] = m;
     }
 
     else
@@ -43,7 +45,7 @@ int pop()
 {
     if(!IsEmpty())
     {
-        return stack[top--];
+        return stack[_top--];
     }
 
     else

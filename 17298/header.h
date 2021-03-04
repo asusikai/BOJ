@@ -1,5 +1,5 @@
-#ifndef header
-#define header
+#ifndef h
+#define h
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,11 +7,11 @@
 #define SIZE 100
 
 int stack[SIZE];
-int top = -1;
+
 
 int IsFull();
 int IsEmpty();
-void push(int n);
+void _push(int m);
 int pop();
 
 #endif

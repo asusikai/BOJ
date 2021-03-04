@@ -1,4 +1,5 @@
 #include "header.h"
+#include "header.h"
 
 
 int main()
@@ -10,7 +11,7 @@ int main()
     for(i=0; i<num; i++)
     {
         scanf("%d", &input);
-        push(input);
+        _push(input);
     }
 
     int nge;
